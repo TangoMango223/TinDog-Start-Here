@@ -1,0 +1,211 @@
+/** Body settings */
+
+body {
+    background-color: white;
+}
+
+/** Font options **/
+
+h1 {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.intro-section {
+  padding: 5% 15%;
+  background-color: #ff4c68;
+  position: relative;
+  z-index: 0;
+}
+
+h2 {
+    font-family: "Ubuntu";
+    font-weight: 600;
+    font-size: 300%;
+}
+
+/** Big Headings Section. **/
+
+
+
+
+/** Features Section. Remember - margin is for insight, padding is for outside spacing. **/
+
+#features {
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+  padding: 7% 15%;
+}
+
+  /** Three Icons Settings **/
+  .fa-check, .fa-bullseye, .fa-heart {
+    color: pink;
+    font-size: 300%;
+    padding-bottom: 5%;
+  }
+
+  .fa-check:hover, .fa-bullseye:hover, .fa-heart:hover {
+    color: red;
+  }
+
+
+.features_items {
+  text-align: center;
+  color: black;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+
+/** Intro options - first section**/
+.intro {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  position: relative;
+
+}
+
+.download {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.download > button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 1%;
+}
+
+.intro-dog-pic > img  {
+    transform: rotate(30deg);
+    z-index: -1;
+    position: absolute;
+}
+
+
+/** Control Logo text **/
+#logo {
+  font-family: "Ubuntu";
+  font-weight: 100;
+  color: white;
+  font-size: 2rem;
+
+}
+
+.nav-link {
+  color: white;
+}
+
+
+/** Testimonials. BORDER RADIUS makes any picture round! **/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+.testimonial-text {
+  padding-bottom: 3%;
+}
+
+.testimonial-img {
+  width: 12%;
+  border-radius: 100%;
+}
+
+#location {
+  margin-left: 2%;
+}
+
+
+/** Press section #ef8172; **/
+#press {
+  background-color: #ef8172;;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#press > img {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+#press > h2 {
+  color: white;
+}
+
+/** Pricing Section & card settings **/
+#pricing {
+  padding: 7%;
+  text-align: center;
+}
+
+/** Media Query **/
+
+@media (max-width: 1028px){
+
+  .intro {
+    text-align: center;
+  }
+
+  .intro-dog-pic > img
+    {
+      position:static;
+      transform: rotate(0);
+      margin-left: 25%;
+    }
+}
+
+/** CTA Section **/
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  }
+
+#cta > h3{
+    color: white;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+#cta > button {
+    margin: 1%;
+    font-size: 20px;
+  }
+
+
+/** Footer Section **/
+#footer {
+  font-family: "Ubuntu";
+  font-weight: 100;
+  text-align: center;
+  padding: 3% 15%;
+
+}
+
+#social-buttons {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#social-buttons > .fab {
+  margin: 1%;
+}
